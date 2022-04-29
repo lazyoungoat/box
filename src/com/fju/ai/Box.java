@@ -10,7 +10,6 @@ public class Box {
         this.width = width;
         this.height = height;
     }
-
     public boolean isFit(int length, int width, int height) {
         if (length <= this.length && width <= this.width && height <= this.height) {
             return true;
